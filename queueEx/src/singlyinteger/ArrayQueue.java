@@ -51,6 +51,7 @@ public class ArrayQueue {
     public Object dequeue() {
         if (isEmpty()) {
             System.out.println("list empty");
+            return null;
         }
         Object tmp = storage[first];
         if (first == last) {
