@@ -67,8 +67,9 @@ public class ArrayQueue {
     public int first() {
         if (isEmpty()) {
             System.out.println("The list is empty");
+            return -1;
         }
-        return 1;
+        return (int) storage[first];
     }
 
     //display all values
